@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta developer='emirveliyevrustem'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rustem4uz - market</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: sans-serif;
+        background-color: #f9f9f9;
+        color: #333
+    }
+
+    header{
+        background-color: #111;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px;
+    }
+
+    .product-card {
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+        transform: scale(1.03);
+    }
+
+    .product-card img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .product-card h2 {
+        margin: 10px 0;
+    }
+
+    .product-card span {
+    font-weight: bold;
+    color: #e60000;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #111;
+        color: white;
+    }
+
+</style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href='#'>Главная</a>
+            <a href='#'>Товары</a>
+            <a href='#'>О нас</a>
+            <a href='#'>Контакты</a>
+        </nav>
+    </header>
+
+    <main>
+<section class='products'>
+    <div class='product-card'>
+        <img src="https://m.media-amazon.com/images/I/51tATy%2BPETL.jpg" alt="Mi Band 5" style="width: 30%;">
+        <h2>Смарт-часы Mi Band 5</h2>
+        <p>Смарт часы от компании Xiaomi. Лучшее соотношение цены-качества на рынке.</p>
+        <span>$25</span>
+    </div>
+    <div class='product-card'>
+        <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-5-plus-1.jpg"  alt="Redmi 5 Plus">
+        <h2>Смартфон Redmi 5 Plus</h2>
+        <p>Смартфон от комании Xiaomi. Лучшая производительность и мобильность на рынке.</p>
+        <span>$150</span>
+</section>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Market</p>
+    </footer>
+</body>
+</html>
